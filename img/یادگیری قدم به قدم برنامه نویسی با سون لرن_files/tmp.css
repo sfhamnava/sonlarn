@@ -1,0 +1,68 @@
+.blog-sc img.alignleft {
+    float: left;
+    margin-right: 20px !important;
+    margin-top: 0 !important;
+}
+
+.blog-sc blockquote {
+    background: #eaf1f8;
+    padding: 20px 20px 10px 20px !important;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.slgallery-screen {
+    margin-top: 30px;
+    position: relative;
+    margin: 5px;
+}
+
+.slgallery-screen .slg-overlay {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.slgallery-screen .slg-caption {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.60) 100%);
+    border-radius: 0 0 10px 10px;
+    color: #fff;
+    line-height: 100px;
+    padding-right: 30px;
+}
+
+.slgallery-screen img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.slgallery-thumbs {
+    width: 100%;
+}
+
+.slgallery-thumbs img {
+    height: 70px;
+    border-radius: 10px;
+    margin: 5px 5px 5px 5px;
+}
+
+.slgallery-thumbs img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.output.sp2br {
+    white-space: inherit !important;
+}
+
+.blog-sc img {
+    margin: 20px auto !important;
+    display: block;
+}
