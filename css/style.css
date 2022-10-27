@@ -581,3 +581,88 @@ margin-left: 30px;
     font-size: 20px;
     color: #1b2a33;
 }
+/* ------container free-learn--------- */
+.container.free-learn{
+    margin-top: 250px;
+    display: flex;
+    padding-right: 185px;
+    
+}
+.container.free-learn .row span,h2{
+    margin-right: 60px;
+    line-height: 50px; 
+}
+
+
+.container.free-learn .cul:hover{
+    transform: translateY(10px);
+   
+}
+.free-learn .justify-content-center:hover{
+    transform: translateY(10px);
+}
+
+.free-learn .justify-content-center{
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 35%;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    padding-top: 70px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+
+.justify-content-center div .fa-book{
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: #3a8bd6;
+    color:white ;
+    font-size: 30px;
+    
+}
+.justify-content-center  a{
+    text-decoration:none;
+    color: #060f14;
+}
+.justify-content-center  a h3{
+    font-size: 25px;
+}
+
+
+.free-learn .cul{
+    margin-top: 150px;
+    transition: 0 .5s;
+    cursor: pointer;
+}
+
+.free-learn .cul #div{
+    width: 250px;
+    border-radius: 35%;
+    height: 250px;
+    text-align: center;
+    margin: 30px;
+    background: white;
+    padding-top: 70px;
+
+}
+.free-learn .cul a h3{
+    font-size: 20px;
+    margin-top: 25px;
+}
+.free-learn .cul a{
+    text-decoration: none;
+    color: #0a1820;
+}
+.free-learn .cul a #fa{
+    padding: 14px;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #3a8bd6;
+    color: white;
+}
+
+
