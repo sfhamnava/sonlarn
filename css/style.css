@@ -581,13 +581,16 @@ margin-left: 30px;
     font-size: 20px;
     color: #1b2a33;
 }
+.land-why-7learn .items span{
+    display: flex;
+}
 
 .land-why-7learn .items img{
     padding: 10px;
-    border-radius: 10px;
-    margin-top: 50px;
+    border-radius: 50px;
+   margin-top: -5px;
     background: white;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 /* ------container free-learn--------- */
 .container.free-learn{
@@ -682,6 +685,7 @@ footer{
     padding-left: auto;
     padding-right: auto;
     background-color: white;
+    padding-right: 50px;
 }
 
 footer .links{
@@ -697,4 +701,57 @@ footer .links a{
     padding-top: 0;
     margin: 0 10px;
     color: rgb(14, 30, 43);
+    transition: 0.7s;
+}
+footer .links a:hover{
+    color: #007bec;
+}
+footer .links a span{
+    color: #1b2a33;
+}
+footer .links a span:hover{
+     color: #007bec;
+}
+
+
+footer .bio{
+    color: gray;
+    line-height: 35px;
+}
+
+footer .bio a{
+    text-decoration: none;
+    color: #007bec;
+}
+
+
+footer .right p{
+     margin-bottom: 50px;
+     font-size:19px;
+     
+}
+footer .right a{
+    text-decoration: none;
+    color: #0a1820;
+}
+
+footer .right span{
+    font-size: 20px;
+   font-weight: bold;
+    font: bold;
+    color: #0a1820;
+    margin-left: 15px;
+}
+footer .right span a:hover{
+    color: #007bec;
+}
+ 
+
+footer .right  div a{
+  font-size: 35px;
+  margin: 20px;
+  transition: 0.7s;
+}
+footer .right  div a:hover{
+    color: #007bec;
 }
