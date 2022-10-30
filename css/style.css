@@ -479,7 +479,6 @@ margin-left: 30px;
 }
 
 
-
 .smooth-corners1 img{
     width: 50px;
     border-radius: 50%;
@@ -492,9 +491,11 @@ margin-left: 30px;
 
 .contaener strong,h2{
     color: rgb(29, 27, 27);
+    font-size: 20px;
 }
 .contaener small ,span{
     color: rgb(80, 78, 78);
+    font-size: 20px;
 }
 
 .contaener #line{
@@ -506,8 +507,8 @@ margin-left: 30px;
 }
 .contaener .player-btn-animated{
     background: white;
-    padding: 10px;
-    border-radius:10px;
+    padding: 15px;
+    border-radius:50%;
     width: 50px;
     margin-right: 595px;
     color: #007bec;
@@ -516,20 +517,20 @@ margin-left: 30px;
 }
 .contaener .arrows{
     display:flex;
-    margin: 20px;
-    margin-right: 575px;
+    margin-top: 20px;
+    margin-right: 580px;
     align-items: center;
     cursor: pointer;
 }
 .arrows .fa-chevron-right{
-    margin-left: 15px;
+    margin-left: 10px;
     padding: 10px;
     border-radius: 5px;
     background: white;
     color: #007bec;
 }
 .arrows .fa-chevron-left{
-    margin-right: 15px;
+    margin-right: 10px;
     padding: 10px;
     border-radius: 5px;
     background: white;
