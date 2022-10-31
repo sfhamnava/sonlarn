@@ -9,7 +9,7 @@ body{
     position: relative;
     text-decoration: rtl;
     overflow-x: hidden;
-    background-image: url(../img/background.jpeg);
+    background-image: linear-gradient(to top, rgb(252, 252, 252),rgba(247, 247, 247, 0.5)), url(../img/background.jpeg)  ;
     background-size: cover;
     color: var(--bs-dark);  
 }
@@ -685,7 +685,7 @@ footer{
     margin-top: 250px;
     padding-left: auto;
     padding-right: auto;
-    background-color: white;
+    background-color: rgb(255, 246, 246);
     padding-right: 50px;
 }
 
@@ -755,4 +755,20 @@ footer .right  div a{
 }
 footer .right  div a:hover{
     color: #007bec;
+}
+
+
+footer .left{
+    display: flex;
+    margin-top: 150px;
+    float: left;
+}
+
+footer .left div{
+    background-color: rgb(255, 255, 255);
+    margin: 5px;
+    padding: 10px;
+}
+footer .left div img{
+    width: 40px;
 }
