@@ -785,7 +785,22 @@ footer .left div img{
 
 
 /* ------------- page 2 -------------- */
+.container2 .trapezoid_shape{
+    width: 60%;
+    height: 100vh;
+    right: -20px;
+    background-color: #8cc3f7;
+    border-radius: 330px 0 10px 60px;
+    opacity: calc(30%);
+    margin-top: -50px;
+  
+}
+.container2 .goback{
+    text-decoration: none;
+    margin-right: -130px;
+}
 .container2{
+    padding-top: 20px;
     width: 100%;
     height: 700px;
     align-items: center;
@@ -794,17 +809,22 @@ footer .left div img{
    
 }
 .row img{
-    width: 30px;
+    width: 40px;
+}
+.row h5{
+    color: gray;
 }
 
 .container2 .row{
     align-items: center;
     margin-right: 500px;
-    margin-top: 200px;
+    margin-top: 30px;
     position: absolute;
-    width: 300px;
-    background-color: #b6d7f5;
+    width: 350px;
+    background: rgb(240, 236, 236);
+    border-radius: 20px;
     text-align: center;
+    padding-top: 30px;
 }
 .row input{
     margin: 10px;
@@ -812,21 +832,51 @@ footer .left div img{
     border: none;
     border-radius: 5px;
     text-align: center;
+    width: 250px;
+    margin-top: 30px;
 }
 .row button{
-    padding: 5px 80px;
+    padding: 5px 110px;
     text-align: center;
+    margin-top: 30px;
     background-color: #007bec;
     color: white;
     border: none;
     border-radius: 5px;
     font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.row button:hover{
+    background-color: #066fd1;
+}
+.row div{
+margin-left: 90px;
+margin-bottom: 30px;
 }
 .row a{
     text-decoration: none;
-    color: gray;
-    margin-top: 50px;
+    color: gray; 
+    font-size: 10px;
 }
 .row a:hover{
     color: #007bec;
 }
+
+.container2 .text{
+  margin-top: -80px;
+    width: 350px;
+    margin-right: 480px;
+  
+}
+
+.container2 .text p{
+    font-size: 15px;
+    color: rgb(29, 29, 29);
+    line-height: 30px;
+}
+.container2 .text p a{
+    color: #007bec;
+    text-decoration: none;
+}
+
