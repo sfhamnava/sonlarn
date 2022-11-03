@@ -784,7 +784,7 @@ footer .left div img{
 
 
 
-/* ------------- page 2 -------------- */
+/* ------------- page 2  and 3-------------- */
 .container2 .trapezoid_shape{
     width: 60%;
     height: 100vh;
@@ -792,12 +792,13 @@ footer .left div img{
     background-color: #8cc3f7;
     border-radius: 330px 0 10px 60px;
     opacity: calc(30%);
-    margin-top: -50px;
+    margin-top: -30px;
   
 }
 .container2 .goback{
     text-decoration: none;
    margin-right: 500px;
+  
 }
 .container2{
     padding-top: 20px;
@@ -812,6 +813,7 @@ footer .left div img{
     width: 70px;
 }
 .row h5{
+    margin-bottom: 30px;
     color: gray;
 }
 
@@ -821,28 +823,31 @@ footer .left div img{
     margin-top: 30px;
     position: absolute;
     width: 350px;
-    background: rgb(240, 236, 236);
+    background:white;
     border-radius: 20px;
     text-align: center;
     padding-top: 30px;
 }
 .row input{
-    margin: 10px;
-    padding: 10px;
+   margin: 5px;
+   font-weight: bold;
+    padding: 20px;
     border: none;
-    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 15px;
     text-align: center;
-    width: 250px;
-    margin-top: 30px;
+    width: 260px;
+    
 }
 .row button{
-    padding: 5px 110px;
+    padding: 15px 105px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: #007bec;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     font-size: 20px;
     margin-bottom: 20px;
     cursor: pointer;
@@ -864,7 +869,7 @@ margin-bottom: 30px;
 }
 
 .container2 .text{
-     margin-top: -50px;
+     margin-top: -190px;
     width: 350px;
     margin-right: 480px;
     
@@ -880,15 +885,4 @@ margin-bottom: 30px;
     color: #007bec;
     text-decoration: none;
 }
-
-/* ---------aorowd page 3----------- */
-.container2 .text2{
-    margin-top: 530px;
-    
-}
-
-.container2 .text2 a{
-    /* text-decoration: none;
-    color: #007bec;
-    cursor: pointer;
-} */
+/* ------------- page 2  and 3  finisht-------------- */
