@@ -797,7 +797,7 @@ footer .left div img{
 }
 .container2 .goback{
     text-decoration: none;
-    margin-right: -130px;
+   margin-right: 500px;
 }
 .container2{
     padding-top: 20px;
@@ -805,11 +805,11 @@ footer .left div img{
     height: 700px;
     align-items: center;
     position: relative;
-    text-align: center;
+    
    
 }
 .row img{
-    width: 40px;
+    width: 70px;
 }
 .row h5{
     color: gray;
@@ -864,9 +864,10 @@ margin-bottom: 30px;
 }
 
 .container2 .text{
-  margin-top: -80px;
+     margin-top: -50px;
     width: 350px;
     margin-right: 480px;
+    
   
 }
 
@@ -880,3 +881,14 @@ margin-bottom: 30px;
     text-decoration: none;
 }
 
+/* ---------aorowd page 3----------- */
+.container2 .text2{
+    margin-top: 530px;
+    
+}
+
+.container2 .text2 a{
+    /* text-decoration: none;
+    color: #007bec;
+    cursor: pointer;
+} */
