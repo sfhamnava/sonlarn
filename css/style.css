@@ -856,7 +856,7 @@ footer .left div img{
     background-color: #066fd1;
 }
 .row div{
-margin-left: 90px;
+margin-left: 150px;
 margin-bottom: 30px;
 }
 .row a{
@@ -886,3 +886,40 @@ margin-bottom: 30px;
     text-decoration: none;
 }
 /* ------------- page 2  and 3  finisht-------------- */
+/* ---------- page 4 start ----------- */
+
+.container3 {
+    background-color: #066fd1;
+}
+.container3 .heddar{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+
+}
+.container3 .heddar ul li{
+    display: inline-block;
+    color: white;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.container3 .heddar ul li:hover{
+    color:#bbc9d6 ;
+}
+.container3 .heddar a{
+    background-color: white;
+    border: 1px solid rgb(219, 217, 217);
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #007bec;
+    border-radius: 15px;
+    font-weight: bold;
+    margin-right: 600px;
+    transition: 0.5s;
+
+}
+
+.container3 .heddar a:hover{
+    background: #bbc9d6;
+}
