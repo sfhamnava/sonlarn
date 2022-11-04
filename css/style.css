@@ -890,6 +890,7 @@ margin-bottom: 30px;
 
 .container3 {
     background-color: #066fd1;
+    height: 120vh;
 }
 .container3 .heddar{
     width: 100%;
@@ -922,4 +923,46 @@ margin-bottom: 30px;
 
 .container3 .heddar a:hover{
     background: #bbc9d6;
+}
+
+.container3 .row{
+    width: 100%;
+    padding: 0 70px;
+    justify-content: space-between;
+    margin: 10px;
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+}
+
+.container3 .row .box{
+    width: 500px;
+    padding-top: 20px;
+    border-radius: 40px;
+    margin: 10px;
+    background-color: white;
+}
+
+.container3 .row .box h1{
+    color: #0671d4;
+    margin-bottom: 20px;
+}
+.container3 .row .box h3{
+    color: #0662b8;
+}
+.container3 .row .box p{
+    font-size: 18px;
+    color: #007bec;
+}
+.container3 .row .box h6{
+    color: gray;
+}
+
+.container3 .row .box  video{
+    border: 30px solid rgb(240, 240, 240);
+    border-radius: 20px;
+    margin-top: 40px;
+    
+    box-shadow: #012e58;
+    
 }
