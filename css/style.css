@@ -962,7 +962,25 @@ margin-bottom: 30px;
     border: 30px solid rgb(240, 240, 240);
     border-radius: 20px;
     margin-top: 40px;
+    box-shadow: 50px;
     
-    box-shadow: #012e58;
-    
+}
+.container3 .row .box  video source{
+    box-shadow: 50px 30px 20px 30px;
+    color: #032031;
+}
+
+/* ------- box2 --------- */
+.container3 .row #box2 .photo{
+    margin-top: 90px;
+    background-color: #015589 ;
+    border-radius: 50%;
+    padding: 40px;
+    width: 270px;
+    margin-right: 200px;
+}
+.container3 .row #box2 .photo img{
+    width: 160px;
+    border-radius: 50%;
+    margin-top: 20px;
 }
