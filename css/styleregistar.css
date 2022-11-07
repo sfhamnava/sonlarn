@@ -53,12 +53,13 @@
 }
 
 .container3 .row .box{
-    width: 500px;
+    width: 550px;
     padding-top: 20px;
     border-radius: 40px;
     margin: 10px;
     background-color: white;
 }
+
 
 .container3 .row .box h1{
     color: #0671d4;
@@ -89,15 +90,20 @@
 
 /* ------- box2 --------- */
 .container3 .row #box2 {
-    background-color: #0662b8;
+    background-color: #066fd1;
+    width: 60%;
+    padding-right: 80px;
+   margin-left: -70px;
+   border-radius: 80px;
 }
 .container3 .row #box2 .photo{
-    margin-top: 90px;
+    margin-top: -50px;
     background-color: rgb(80, 159, 233) ;
     border-radius: 50%;
     padding: 40px;
     width: 270px;
     margin-right: 200px;
+    margin-left: -50px;
 }
 .container3 .row #box2 .photo img{
     width: 160px;
@@ -107,11 +113,14 @@
 .row #box2  .icon{
    display: flex;
    width: 200px;
-   margin-right: 250px;
+   margin-right: 300px;
+   font-size: 20px;
+   margin-top: 50px;
 }
 .row #box2  .icon span{
     margin-left: 50px;
     color: white;
+   
 }
 
 .row #box2  .icon img{
@@ -121,3 +130,21 @@
     color: white;
 }
 
+
+/* --------- section ------------ */
+/* section{
+    margin-top: 200px;
+    padding: 80px;
+}
+
+section h1{
+    margin-bottom: 50px;
+    font-size: 30px;
+    color: #04529b;
+
+}
+section p{
+    line-height: 30px;
+    color: rgb(80, 80, 80);
+    font-size: 20px;
+} */
