@@ -135,6 +135,10 @@
 section{
     margin-top: 200px;
     padding: 80px;
+    background-image: url(../img/background.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 section h1{
@@ -147,4 +151,35 @@ section p{
     line-height: 30px;
     color: rgb(80, 80, 80);
     font-size: 20px;
+}
+section ul{
+    margin-top: 80px;
+}
+section ul li{
+    line-height: 35px;
+    color: #066fd1;
+    font-size: 20px;
+}
+section .wach{
+    margin-right: 530px;
+}
+section .wach a{
+    text-decoration: none;
+    color: #007bec;
+}
+
+section .waches{
+    margin-top: 100px;
+    display: flex;
+}
+section .waches .big-box{
+   background: white;
+   padding: 50px;
+  
+}
+section .waches .big-box ul {
+   line-height: 40px;
+   margin-top: -10px;
+   font-size: 20px;
+   color: grey;
 }
