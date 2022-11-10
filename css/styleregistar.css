@@ -4,6 +4,11 @@
     box-sizing: border-box;
 
 }
+body{
+    background-image: url(../img/background.jpeg);
+    background-position: center;
+    background-size: cover;
+}
 
 .container3 {
     background-color: #066fd1;
@@ -174,15 +179,18 @@ section .waches{
 }
 section .waches .big-box{
    background: white;
-   width: 60%;
+   width: 83%;
    height: 380px;
-   opacity: calc(70%);
+   position: relative;
+   margin-right: 150px;
+   border-radius: 20px;
   
 }
 section .waches .big-box ul {
    line-height: 40px;
-   margin-top: -10px;
-   font-size: 20px;
+   margin-top: 50px;
+   margin-right: 280px;
+  
    color: grey;
 }
 section .waches .era2 h4 i{
@@ -200,8 +208,9 @@ section .waches .era2{
     padding-top: 10px;
     line-height: 40px;
     font-size: 30px;
-    margin:100px 400px 0 0;
+    margin:100px 700px 0 0;
     border-radius: 20px;
+    position: absolute;
 }
 
 section .waches .era1 h4 i{
@@ -211,7 +220,7 @@ section .waches .era1 h4 i{
     color: green;
 }
 section .waches .era1{
-    background: rgb(179, 41, 41);    
+    background: white;    
     height: 220px;
     width: 300px;
     padding-right: 50px;
@@ -219,6 +228,78 @@ section .waches .era1{
     padding-top: 10px;
     line-height: 40px;
     font-size: 30px;
-    opacity: calc(90%);
-    margin:20 0 200px 70%;
+    margin-top: -40px;
+    margin-right: -100px;
+    position: absolute;
+}
+
+ .col{
+   margin-top: 20px;
+   border-radius: 20px;
+   height: 200px;
+   padding-top:70px;
+   padding-bottom: 10px;
+   width: 80%;
+   padding-right: 150px;
+   margin-right: 150px;
+    background: white;
+}
+
+.col ul li{
+   color: grey;
+}
+.col ul{
+ margin-top: -5px;
+}
+
+
+/* ------------ssection2 start--------------- */
+
+.section2{
+    background: #f2f8fe;
+}
+.section2 .row{
+    background-color: #e9eef4;
+    position: relative;
+    width: 83%;
+    height: 500px;
+    padding: 100px;
+    margin-right: 200px;
+    border-radius: 20px;
+    color: #1b77e7;
+}
+.section2 .row h3 span{
+    float: left;
+}
+.section2 .row-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .row-boxs .box-right{
+    width: 600px;
+    margin-left: 30px;
+    background: white;
+    margin-right: -200px;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.box-right .content{
+    margin-top: 30px;
+}
+
+
+.section2 .row-boxs  .box-left{
+     float: left;
+     margin-left: -100px;
+    width: 600px;
+    background: white;
+    margin-top: 100px;
+    padding: 50px;
+    border-radius: 20px;
+}
+.box-left .conten{
+    margin-top: 30px;
 }
