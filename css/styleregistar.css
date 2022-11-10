@@ -278,6 +278,7 @@ section .waches .era1{
 
 .section2 .row-boxs .box-right{
     width: 600px;
+    height: 300px;
     margin-left: 30px;
     background: white;
     margin-right: -200px;
@@ -288,6 +289,8 @@ section .waches .era1{
 
 .box-right .content{
     margin-top: 30px;
+    overflow-y: scroll;
+    height: 150px;
 }
 
 
@@ -295,11 +298,14 @@ section .waches .era1{
      float: left;
      margin-left: -100px;
     width: 600px;
+    height: 300px;
     background: white;
     margin-top: 100px;
     padding: 50px;
     border-radius: 20px;
 }
-.box-left .conten{
+    .row-boxs  .box-left .content{
     margin-top: 30px;
+    overflow-y: scroll;
+    height: 150px;
 }
