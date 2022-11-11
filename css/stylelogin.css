@@ -11,6 +11,7 @@ body{
    margin-right: 500px;
 }
 .container2{
+    height: 100vh;
     overflow-y: hidden;
     padding-top: 20px;
     width: 100%;

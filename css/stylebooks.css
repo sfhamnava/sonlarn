@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    -webkit-text-size-adjust: 100%;
+    max-width: 100vw;
+    position: relative;
+    text-decoration: rtl;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, rgb(252, 252, 252),rgba(247, 247, 247, 0.5)), url(../img/background.jpeg)  ;
+    background-size: cover;
+    color: var(--bs-dark);  
+}
+
+section{
+    justify-content: center;
+}
+
+.container{
+    width: 87%;
+    padding-left: 30px;
+}
+
+/* ------nav----------- */
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 8%; 
+}
+nav .logo{
+    width: 120px;
+}
+
+nav .header{
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    padding: 5px 10px; 
+}
+
+.header .login{
+    margin-right: 30px;
+    width: 191px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-radius: 20px;
+    background: rgb(252, 202, 109); 
+}
+
+.header .login .btn1{
+    margin-left: 20px;
+    text-decoration: none;
+    padding-right: 13px;
+    color: black;
+}
+.header .login .btn2{
+    text-decoration: none;
+    background: orange;
+    border-radius: 20px;
+    padding:  5px 25px 16px;
+    color: black;
+}
+
+.header .serch{
+    background: #fff;
+    align-items: center;
+    padding: 13px;
+    border-radius: 11px;
+    color: gray;
+}  
+
+nav .li{
+    text-align: center;
+    margin-left: 200px;
+}
+nav ul{
+    float: right;
+    margin-right: 35px;
+    margin-top: 35px;
+    display: block;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(65, 63, 63);
+}
+nav .li ul li .dora{
+    border: 1px solid;
+    padding: 13px;
+    border-radius: 16px;
+}
+nav .li ul li .dora .fa{
+    padding-left: 4px;
+   }
+   nav .li ul li .d .fa{
+       padding-right: 4px;
+   }
+   .container .content h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-right: 70px;
+   }
+
+   .col-lg{
+       text-align: center;
+        margin-top: 100px;
+        line-height: 80px;
+        font-weight: bold;
+        padding-right: 50px;
+   }
+   .col-lg h1{
+       font-size: 35px;
+       color: #007bec;
+       font-size: bold;
+   }
+   .col-lg span{
+       color: #007bec;
+   }
+
+   .col-lg img{
+       margin-top: 60px;
+   }
+
+
+
+   .search{
+       width: 600px;
+       background: white;
+       border: 1px solid rgb(240, 238, 238);
+       margin-right: 30%;
+       padding: 30px;
+       margin-bottom: 50px;
+       border-radius: 10px;
+     
+   }
+   .search input{
+      font-weight: bold;
+      border: none;
+   }
+
+   .search button{
+       float: left;
+       font-size: 20px;
+       border: none;
+   }
+  
