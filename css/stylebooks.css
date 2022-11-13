@@ -9,7 +9,7 @@ body{
     position: relative;
     text-decoration: rtl;
     overflow-x: hidden;
-    background-image: linear-gradient(to top, rgb(252, 252, 252),rgba(247, 247, 247, 0.5)), url(../img/background.jpeg)  ;
+    background-image: linear-gradient(to top, rgb(202, 210, 216),rgba(247, 247, 247, 0.5)), url(../img/background.jpeg)  ;
     background-size: cover;
     color: var(--bs-dark);  
 }
@@ -109,11 +109,7 @@ nav .li ul li .dora .fa{
    nav .li ul li .d .fa{
        padding-right: 4px;
    }
-   .container .content h1{
-    font-size: 50px;
-    margin-top: 50px;
-    margin-right: 70px;
-   }
+  /* -------nav end---------- */
 
    .col-lg{
        text-align: center;
@@ -158,3 +154,77 @@ nav .li ul li .dora .fa{
        border: none;
    }
   
+
+
+
+
+
+
+   /* -------content start----------- */
+
+.content{
+    margin-bottom: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    background: white;
+    padding-right: 50px;
+    margin-right: 150px;
+    cursor: pointer;
+    height: 330px;
+}
+ .img:hover{
+    transform: rotateY(10px);
+}
+.content .img{
+    z-index: 2;
+    position: relative;
+    transition: all ~ease-in-out .is;
+}
+
+.content .box{
+    margin-top: -250px;
+    float: left;
+    width: 380px;
+   margin-left: 10px;
+}
+
+.box h3{
+    color: #020e1a;
+    margin: 30px;
+}
+.box h3:hover{
+    color: #135ca0;
+}
+
+.box p{
+    margin-top: 60px;
+    line-height: 30px;
+    color:#9fc0df ;
+}
+
+.box .item{
+    display: inline-block;
+    color: #02101f;
+    margin-top: 20px;
+}
+.box .item i{
+    color: #007bec;
+}
+
+.box .more{
+  margin-right: 150px;
+}
+
+.box .more i{
+    border: 1px solid rgb(44, 112, 151);
+    padding: 5px;
+    border-radius: 50px;
+    transition: 0.7s;
+}
+
+
+.box .more i:hover{
+    background: #007bec;
+    color: white;
+}
