@@ -17,7 +17,6 @@ body{
 section{
     justify-content: center;
 }
-
 .container{
     width: 87%;
     padding-left: 30px;
@@ -137,7 +136,7 @@ nav .li ul li .dora .fa{
        width: 600px;
        background: white;
        border: 1px solid rgb(240, 238, 238);
-       margin-right: 30%;
+       margin-right: 25%;
        padding: 30px;
        margin-bottom: 50px;
        border-radius: 10px;
@@ -165,28 +164,25 @@ nav .li ul li .dora .fa{
 .content{
     margin-bottom: 50px;
     padding: 50px;
+    width: 70%;
     border-radius: 10px;
     margin: auto;
-    background: white;
-    padding-right: 50px;
-    margin-right: 150px;
+    background: rgb(253, 251, 251);
+    padding-top: 20px;
+    padding-right: 20px;
+    margin-right: 180px;
     cursor: pointer;
     height: 330px;
 }
- .img:hover{
+  .img:hover{
     transform: rotateY(10px);
 }
-.content .img{
-    z-index: 2;
-    position: relative;
-    transition: all ~ease-in-out .is;
-}
+
 
 .content .box{
     margin-top: -250px;
     float: left;
     width: 380px;
-   margin-left: 10px;
 }
 
 .box h3{
@@ -215,16 +211,127 @@ nav .li ul li .dora .fa{
 .box .more{
   margin-right: 150px;
 }
+.box .more:hover{
+   color: #007bec;
+}
 
 .box .more i{
-    border: 1px solid rgb(44, 112, 151);
+    border: 1px solid rgb(15, 120, 161);
     padding: 5px;
     border-radius: 50px;
     transition: 0.7s;
 }
 
-
 .box .more i:hover{
     background: #007bec;
     color: white;
 }
+
+
+
+
+
+/* ------- fotter ---------- */
+
+footer{
+    width: 100%;
+    margin-top: 250px;
+    height: 650px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: rgb(255, 246, 246);
+    padding-right: 50px;
+}
+
+footer .links{
+    float: right;
+    width: 100%;
+    margin: 0 0 60px 0;
+
+}
+
+footer .links a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 0;
+    margin: 0 10px;
+    color: rgb(14, 30, 43);
+    transition: 0.7s;
+}
+footer .links a:hover{
+    color: #007bec;
+}
+footer .links a span{
+    color: #1b2a33;
+}
+footer .links a span:hover{
+     color: #007bec;
+}
+
+
+footer .bio{
+    color: gray;
+    line-height: 35px;
+}
+
+footer .bio a{
+    text-decoration: none;
+    color: #007bec;
+}
+
+
+footer .right p{
+     margin-bottom: 50px;
+     font-size:19px;
+     
+}
+footer .right a{
+    text-decoration: none;
+    color: #0a1820;
+}
+
+footer .right span{
+    font-size: 20px;
+   font-weight: bold;
+    font: bold;
+    color: #0a1820;
+    margin-left: 15px;
+}
+footer .right span a:hover{
+    color: #007bec;
+}
+ 
+
+footer .right  div a{
+  font-size: 35px;
+  margin: 20px;
+  transition: 0.7s;
+}
+footer .right  div a:hover{
+    color: #007bec;
+}
+
+
+footer .left{
+    display: flex;
+    margin-top: 70px;
+    float: left;
+    padding-left: 100px;
+    margin-bottom: 50px;
+}
+
+footer .left div{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+   
+}
+footer .left div img{
+    width: 90px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #f3f3f5;
+}
+
+
+
+
