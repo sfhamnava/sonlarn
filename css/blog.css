@@ -110,26 +110,50 @@ nav .li ul li .dora .fa{
       display: flex;
   }
   .blog-index-page .img {
+   
       margin-right: 100px;
+      border-radius: 20px;
       margin-top: 50px;
+      height: 80%;
   }
+
+  .baground{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 18;
+    background: linear-gradient(0deg,rgba(29,45,61,.8) 25%,rgba(255,255,255,0) 70%);
+    width: 54%;
+    border-radius: 20px;
+    height: 63%;
+    margin-top: 138px;
+    cursor: pointer;
+    transition: 0.7s;
+  }
+
+  .img .baground:hover{
+    background: linear-gradient(0deg,rgba(95, 109, 122, 0.8) 25%,rgba(89, 90, 94, 0.274) 70%);
+  }
+
   .blog-index-page .img img{
       width: 700px;
       border-radius: 20px;
-      position: relative;
      object-position: 50% 0;
+     position: relative;
   }
+
 
   .img .row-h3{
       position: absolute;
-      margin-top: -100px;
+      margin-top: 300px;
       line-height: 30px;
       margin-right: 50px;
-      color: white;
+      color: rgb(255, 246, 246);
+      transition: 0.5s;
   }
   .blog-index-page .text{
       width: 300px;
-      margin-right: 30px;
+      margin-right: 50px;
   }
   .text .col-lg-12{
       margin-top: 50px;
