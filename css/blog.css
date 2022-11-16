@@ -7,7 +7,7 @@
 
 section{
     justify-content: center;
-    background: #eff4f4;
+    background: #eaeeee;
 }
 .container{
     width: 87%;
@@ -189,11 +189,55 @@ nav .li ul li .dora .fa{
 
   .col-12{
       display: flex;
+      margin: 80px;
+      width: 100%;
+  }
+  .col-12 .baground2{
+      margin-top: -190px;
+      width: 300px;
+      height: 185px;
+      border-radius: 20px;
+      position: absolute;
+  }
+  .col-12 .baground2:hover{
+    opacity: calc(200%);
   }
 
-  .col-12 .col-xl-12{
-      width: 70%;
+
+  .col-12 .col-xl-12 .mge-box{
+      width: 300px;
+      cursor: pointer;
+      position: relative;
   }
-  .col-xl-12 a{
-      display: flex;
+  .col-12 .col-xxl-3{
+      margin-left: -250%;
+      margin-top: -385%;
+      float: left;
+  }
+  .col-xxl-3 ul li{
+      list-style: none;
+      line-height: 50px;
+      color: grey;
+  }
+
+
+  .col-12 a .col-xl-7{
+      width: 450px;
+      margin-right: 350px;
+      line-height: 45px;
+      margin-top: -200px;
+      position: absolute;
+      color: grey;
+  }
+
+  .col-12 a .col-xl-7 h4{
+      color:#040f24;
+      cursor: pointer;
+     margin: 5px 0;
+     margin-bottom: 15px;
+     font-size: 22px;
+     transition: 0. 5s;
+  }
+  .col-12 a .col-xl-7 h4:hover{
+      color: #165e99;
   }
