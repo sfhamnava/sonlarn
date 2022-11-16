@@ -170,4 +170,30 @@ nav .li ul li .dora .fa{
   .text .col-lg-12 small{
       color: grey;
   }
-  
+
+
+
+
+  .search{
+      margin-top: 100px;
+      background: white;
+      border-radius: 10px;
+      font-size: 20px;
+      color: grey;
+      margin:  150px 90px 50px 90px;
+      height: 80px;
+      padding-top: 30px;
+      padding-right: 30px;
+  }
+
+
+  .col-12{
+      display: flex;
+  }
+
+  .col-12 .col-xl-12{
+      width: 70%;
+  }
+  .col-xl-12 a{
+      display: flex;
+  }
