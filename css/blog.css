@@ -3,10 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: #eaeeee;;
+}
 
 section{
     justify-content: center;
+    overflow-x: hidden;
     background: #eaeeee;
 }
 .container{
@@ -215,7 +218,7 @@ nav .li ul li .dora .fa{
   }
   .col-12 .col-xxl-3{
       margin-left: -250%;
-      margin-top: -395%;
+      margin-top: -870%;
       float: left;
   }
   .col-xxl-3 ul li{
@@ -245,3 +248,129 @@ nav .li ul li .dora .fa{
   .col-12 a .col-xl-7 h4:hover{
       color: #165e99;
   }
+
+
+  /* ------search end -------- */
+
+
+button{
+    margin-right: 450px;
+    margin-top: -30px;
+    padding:15px 20px;
+    position: absolute;
+
+    border-radius: 5px;
+}
+ button::after{
+font-family: 'Font Awesome 5 Pro';
+content: '\f078';
+font-weight: 500;
+font-size: 14px;
+margin-right: 10px;
+top: 2px;
+position: relative;
+}
+
+
+
+/* ------ footer start------- */
+
+
+footer{
+    width: 100%;
+    height: 100vh;
+    margin-top: 250px;
+    padding-left: auto;
+    padding-right: auto;
+    background-color: rgb(255, 246, 246);
+    padding-right: 50px;
+}
+
+footer .links{
+    float: right;
+    width: 100%;
+    margin: 0 0 60px 0;
+
+}
+
+footer .links a{
+    text-decoration: none;
+    font-size: 20px;
+    padding-top: 0;
+    margin: 0 10px;
+    color: rgb(14, 30, 43);
+    transition: 0.7s;
+}
+footer .links a:hover{
+    color: #007bec;
+}
+footer .links a span{
+    color: #1b2a33;
+}
+footer .links a span:hover{
+     color: #007bec;
+}
+
+
+footer .bio{
+    color: gray;
+    line-height: 35px;
+}
+
+footer .bio a{
+    text-decoration: none;
+    color: #007bec;
+}
+
+
+footer .right p{
+     margin-bottom: 50px;
+     font-size:19px;
+     
+}
+footer .right a{
+    text-decoration: none;
+    color: #0a1820;
+}
+
+footer .right span{
+    font-size: 20px;
+   font-weight: bold;
+    font: bold;
+    color: #0a1820;
+    margin-left: 15px;
+}
+footer .right span a:hover{
+    color: #007bec;
+}
+ 
+
+footer .right  div a{
+  font-size: 35px;
+  margin: 20px;
+  transition: 0.7s;
+}
+footer .right  div a:hover{
+    color: #007bec;
+}
+
+
+footer .left{
+    display: flex;
+    margin-top: 70px;
+    float: left;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+footer .left div{
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+   
+}
+footer .left div img{
+    width: 90px;
+    padding: 20px;
+    border-radius: 50px;
+    background-color: #f3f3f5;
+}
