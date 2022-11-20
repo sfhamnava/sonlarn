@@ -205,7 +205,7 @@ nav .li ul li .dora .fa{
       height: 185px;
       border-radius: 20px;
       position: absolute;
-      transition: 0. 7s;
+      transition: 0. 5s;
   }
   .col-12 .baground2:hover{
     background: linear-gradient(0deg,rgba(95, 109, 122, 0.8) -25%,rgba(184, 184, 185, 0.274) -10%);

@@ -262,7 +262,7 @@ section .waches .era1{
     background-color: #e9eef4;
     position: relative;
     width: 83%;
-    height: 500px;
+    height: 627px;
     padding: 100px;
     margin-right: 200px;
     border-radius: 20px;
@@ -273,7 +273,8 @@ section .waches .era1{
 }
 .section2 .row-boxs{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    height: 500px;
 }
 
 .section2 .row-boxs .box-right{
@@ -309,3 +310,21 @@ section .waches .era1{
     overflow-y: scroll;
     height: 150px;
 }
+
+
+section .accordion{
+    margin-top: 50px;
+    
+} 
+
+.accordion .accordion-item{
+    height: 20px;
+    margin: 10px;
+    background: white;
+    justify-content: space-between;
+}
+
+.accordion-item .info{
+    float: left;
+}
+
