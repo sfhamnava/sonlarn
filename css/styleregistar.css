@@ -89,6 +89,8 @@ body{
     border-radius: 20px;
     margin-top: 40px;
     box-shadow: 50px;
+    box-shadow: 0 0 50px 0 rgba(38, 121, 230, 0.07);
+    filter: drop-shadow(0 0 50px rgba(8, 48, 226, 0.07));
     
 }
 .container3 .row .box  video source{
@@ -316,7 +318,8 @@ section .waches .era1{
 
 
 section .accordion{
-    margin-top: 200px;
+    margin-top: 100px;
+
 } 
 
 .accordion .accordion-item{
@@ -326,6 +329,7 @@ section .accordion{
     width: 700px;
     margin-right: 200px;
     margin-top: 15px;
+    color: gray;
 
 }
 button i{
@@ -343,6 +347,41 @@ button  span small{
 }
 
 .accordion-item .info{
+    float: left;
+}
+
+/* -------- footer start ---------- */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    margin: 0;
+    padding-left: 20px;
+    padding-top: 100px;
+}
+
+footer .img-icon img{
+     width: 140px;
+     margin-right: 200px;
+     border-radius: 50px;
+     border: 7px solid #fff;
+     border-radius: 50%;
+     box-shadow: 0 0 60px 0 rgb(0 0 0 / 7%);
+     filter: drop-shadow(0 0 60px rgba(0, 0, 0, .07));
+}
+
+.img-icon .text-span{
+    margin-right: 200px;
+    margin-top: 30px;
+    line-height: 35px;
+}
+.text-span h4{
+    margin-right: 25px;
+    font-size: 20px;
+    font-weight: bold;
+}
+footer .text-p{
+    width: 600px;
     float: left;
 }
 
