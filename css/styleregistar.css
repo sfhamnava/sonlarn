@@ -14,23 +14,26 @@ body{
     background-color: #066fd1;
     height: 120vh;
 }
+body{
+
+}
 .container3 .heddar{
     width: 100%;
     padding: 100px;
     display: flex;
 
 }
-.container3 .heddar ul li{
+.container3 .heddar ul a li{
     display: inline-block;
     color: white;
     margin: 10px;
     cursor: pointer;
     transition: 0.5s;
 }
-.container3 .heddar ul li:hover{
+.container3 .heddar ul a li:hover{
     color:#bbc9d6 ;
 }
-.container3 .heddar a{
+.container3 .heddar .a{
     background-color: white;
     border: 1px solid rgb(219, 217, 217);
     padding: 15px 30px;
@@ -43,7 +46,7 @@ body{
 
 }
 
-.container3 .heddar a:hover{
+.container3 .heddar .a:hover{
     background: #bbc9d6;
 }
 
@@ -97,8 +100,8 @@ body{
 .container3 .row #box2 {
     background-color: #066fd1;
     width: 60%;
-    padding-right: 80px;
-   margin-left: -70px;
+    padding-right: 90px;
+   margin-left:10px;
    border-radius: 80px;
 }
 .container3 .row #box2 .photo{
@@ -313,15 +316,30 @@ section .waches .era1{
 
 
 section .accordion{
-    margin-top: 50px;
-    
+    margin-top: 200px;
 } 
 
 .accordion .accordion-item{
-    height: 20px;
-    margin: 10px;
+    height: 50px;
+    padding-bottom: 5px;
     background: white;
-    justify-content: space-between;
+    width: 700px;
+    margin-right: 200px;
+    margin-top: 15px;
+
+}
+button i{
+    color: #007bec;
+    border: none;
+}
+button{
+    border: none;
+    font-size: 20px;
+    margin: 10px;
+}
+button  span small{
+   margin-top: 5px;
+   display: inline-block;
 }
 
 .accordion-item .info{
