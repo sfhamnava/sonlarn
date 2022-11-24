@@ -373,7 +373,7 @@ footer .img-icon img{
 .img-icon .text-span{
     margin-right: 200px;
     margin-top: 30px;
-    line-height: 35px;
+  margin-bottom: 20px;
 }
 .text-span h4{
     margin-right: 25px;
@@ -381,7 +381,60 @@ footer .img-icon img{
     font-weight: bold;
 }
 footer .text-p{
-    width: 600px;
+    width: 620px;
     float: left;
 }
+footer .text-p ul{
+    margin-top: -1px;
+    margin-right: 40px;
+    list-style: none;
+
+}
+footer .text-p ul li{
+    color: grey;
+    font-size: 14px;
+   
+}
+
+footer  .text-p  ul li::before {
+    content: "\2022";
+    display: inline-block;
+    margin-left: 10px;
+    color: blue;
+    font-weight: bold;
+    font-size: 30px;
+    width: 1em;
+    
+}
+
+.text-p .comp-btn{
+    text-decoration: none;
+    margin-top: -5px;
+}
+
+.fa-chevron-left::before{
+    content: "\f053";
+}
+.text-p .a{
+    border: 1px solid blue;
+    float: left;
+    padding: 15px; 
+    border-radius: 10px;
+    padding-left: 30px;
+    background-color: #007bec;
+    margin-top: 30px;
+    color: white;
+}
+
+.text-p .a:hover{
+    background-color: #04529b;
+}
+
+.quation{
+    background-color: #f2f8fe
+    ;
+}
+
+
+
 
