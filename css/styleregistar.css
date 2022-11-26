@@ -8,6 +8,7 @@ body{
     background-image: url(../img/background.jpeg);
     background-position: center;
     background-size: cover;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .container3 {
@@ -400,7 +401,7 @@ footer  .text-p  ul li::before {
     content: "\2022";
     display: inline-block;
     margin-left: 10px;
-    color: blue;
+    color: rgb(26, 93, 182);
     font-weight: bold;
     font-size: 30px;
     width: 1em;
@@ -435,6 +436,7 @@ footer  .text-p  ul li::before {
     background-color: #f2f8fe
     ;
  
+ 
 }
 .quation .acc-item h4{
     display: inline-block;
@@ -455,8 +457,6 @@ footer  .text-p  ul li::before {
 }
 .quation .acc-item{
     padding: 30px;
-    
-
     background: #fff;
     overflow: hidden;
     border-bottom: none;
@@ -465,14 +465,13 @@ footer  .text-p  ul li::before {
     box-shadow: 0 0 0.5rem 
 }
 
-
-
-
 .submit-box {
     border-radius: 20px;
     padding-top: 20px;
     background-color: white;
     height: 300px;
+    padding-left: 50px;
+   padding-bottom: 80px;
 }
 .submit-box .ragister{
     line-height: 30px;
@@ -485,7 +484,7 @@ footer  .text-p  ul li::before {
 .submit-box a{
     float: left;
     text-decoration: none;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 10px;
     background: #007bec;
     color: white;
@@ -494,7 +493,43 @@ footer  .text-p  ul li::before {
 .submit-box a:hover{
     background-color: #04529b;
 }
+#a-n{
+    margin-top: -80px;
+}
 
+
+.quation .col-lg-10{
+    margin-top: 200px;
+    text-align: center;
+}
+.col-lg-10 h1{
+  color: #032031;
+}
+.quation .col-xl-7{
+    flex: 0 0 auto;
+    width: 58.3333333333%;
+}
+.col-xl-7 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 100px 110px 75px 110px;
+    margin-top: 50px;
+    background: linear-gradient(45deg,rgba(0,123,236,.0816527295) 40%,rgba(0,123,236,.4990196762) 100%);
+    border-radius: 69% 31% 61% 39%/40% 36% 64% 60%;
+}
+.col-xl-7 form>*{
+    /* width: 100%; */
+   
+}
+.col-xl-7 form input{
+    padding: 15px ;
+    border-radius: 15px;
+    border: none;
+    width: 60%;
+    margin-right: 50px;
+}
 
 
 
