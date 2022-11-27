@@ -570,12 +570,21 @@ form button:hover{
 .col-xl-4{
     flex: 0 0 auto;
     width: 33.3333333333%;
+    float: left;
 }
-
+.col-xl-4 a{
+    text-decoration: none;
+    color: #032031;
+}
+.col-xl-4 a .title,.action{
+    font-size: 20px;
+    margin-right: 20px;
+}
 
 .col-xl-4 .consultation-box-items{
     display: flex;
     flex-direction: column;
+    line-height: 30px;
     gap: 40px;
 }
 
@@ -586,13 +595,42 @@ form button:hover{
     gap: 30px;
 }
 .consultation-box-items .icon{
-    background: linear-gradient(45deg,rgba(250,176,5,.0816527295) 40%,rgba(250,176,5,.4990196762) 100%);
+    background: linear-gradient(45deg,rgba(250, 176, 5, 0.007) 40%,rgba(250, 176, 5, 0.26) 100%);
     color: #fab005;
+    font-size: 30px;
 }
-.fa-phone::before{
+.phone{
+    background: linear-gradient(45deg,rgba(250, 176, 5, 0.445) 40%,rgba(250, 176, 5, 0.747) 100%);
+    height: 80px;
+    width: 80px;
+    padding-top: 30px;
+    position: absolute;
+  margin-right: 40px;
+   border-radius: 60px 30px 20px 30px;
+   margin-top: -10px;
+ 
+}
+a .title:hover{
+color:#fab005 ;
+}
+.phone .icon:hover{
+    color:  #f5e5c0f6;
+    font-size: 35px;
+}
+.phone:hover{
+    background: linear-gradient(45deg,rgba(250, 176, 5, 0.603) 40%,rgba(250, 176, 5, 0.986) 100%);
+    color:#e9ddc3  ;
+    font-size: 25px;
+    color: #f3dca8;
+}
+.fa-phone:before{
      content: "\f095";
 }
-.fa-phone::after{
+
+
+
+.fa-phone:after{
     content: "\10f095";
 }
+/* //////phono end/////////// */
 
