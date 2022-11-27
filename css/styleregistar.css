@@ -19,7 +19,7 @@ body{
 
 }
 .container3 .heddar{
-    width: 100%;
+    width: 105%;
     padding: 100px;
     display: flex;
 
@@ -30,6 +30,7 @@ body{
     margin: 10px;
     cursor: pointer;
     transition: 0.5s;
+  
 }
 .container3 .heddar ul a li:hover{
     color:#bbc9d6 ;
@@ -44,6 +45,7 @@ body{
     font-weight: bold;
     margin-right: 600px;
     transition: 0.5s;
+    width: 16%;
 
 }
 
@@ -393,7 +395,7 @@ footer .text-p ul{
 }
 footer .text-p ul li{
     color: grey;
-    font-size: 14px;
+    font-size: 13px;
    
 }
 
@@ -514,24 +516,83 @@ footer  .text-p  ul li::before {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 100px 110px 75px 110px;
+    padding: 100px 100px 75px 100px;
     margin-top: 50px;
     background: linear-gradient(45deg,rgba(0,123,236,.0816527295) 40%,rgba(0,123,236,.4990196762) 100%);
     border-radius: 69% 31% 61% 39%/40% 36% 64% 60%;
 }
-.col-xl-7 form>*{
-    /* width: 100%; */
-   
-}
+
 .col-xl-7 form input{
-    padding: 15px ;
+    padding: 18px 15px ;
     border-radius: 15px;
     border: none;
-    width: 60%;
-    margin-right: 50px;
+    width: 68%;
+}
+.col-xl-7 form textarea{
+    padding: 1.9rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+form h5{
+    margin-right: -90px;
+    color: rgb(82, 80, 80);
+    font-size: 20px;
+}
+
+form button{
+    padding: 0.6rem 2.5rem 0.55rem 2.5rem!important;
+    margin-top: 25px;
+    width: fit-content;
+    background-color: #007bec;
+    color: white;
+    height: 65px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0. 7s;
+}
+
+form button:hover{
+    background-color: #04529b;
 }
 
 
 
 
+
+
+
+
+
+
+
+/* ------------.col-xl-4-------------- */
+.col-xl-4{
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+
+
+.col-xl-4 .consultation-box-items{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.consultation-box-items a{
+    margin-top: 0;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.consultation-box-items .icon{
+    background: linear-gradient(45deg,rgba(250,176,5,.0816527295) 40%,rgba(250,176,5,.4990196762) 100%);
+    color: #fab005;
+}
+.fa-phone::before{
+     content: "\f095";
+}
+.fa-phone::after{
+    content: "\10f095";
+}
 
